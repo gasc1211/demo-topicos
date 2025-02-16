@@ -1,9 +1,10 @@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
 const contacts = [
-  { id: 1, name: "John Doe", email: "john@example.com", phone: "123-456-7890", company: "Acme Inc." },
-  { id: 2, name: "Jane Smith", email: "jane@example.com", phone: "098-765-4321", company: "Tech Corp" },
-  { id: 3, name: "Bob Johnson", email: "bob@example.com", phone: "555-555-5555", company: "Big Business LLC" },
+  { id: 1, name: "Gerardo Mayorga", email: "gerardo.mayorga@unah.hn", phone: "-504 2220-1980", company: "Acme Inc." },
+  { id: 2, name: "Gabriel Suazo", email: "gasuazo@unah.hn", phone: "-504 2245-1780", company: "Tech Corp" },
+  { id: 3, name: "Diana Duron", email: "dduron@unah.hn", phone: "-504 2245-1564", company: "Big Business LLC" },
+  { id: 3, name: "Sergio Garay", email: "sergio.garay@unah.hn", phone: "+504 2212-3890", company: "Jathna Solutions" },
 ]
 
 export function ContactsTable() {
